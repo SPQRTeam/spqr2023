@@ -44,8 +44,6 @@ Open a terminal `Ctrl`+`Alt`+`t` (usually) and type the followings commands: <br
   * Enter in the RoboCup folder - `$ cd RoboCup`
   * Execute the command to clone - `$ git clone https://github.com/SPQRTeam/spqrnao2023.git`
 
-To learn more about git read this [page](http://www.codeschool.com/courses/try-git).
-
 
 ### Install OpenCV 3.4
 
