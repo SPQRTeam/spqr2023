@@ -1,0 +1,30 @@
+call Includes/Fast
+
+# field views
+vf worldState
+vfd worldState fieldLines
+vfd worldState goalFrame
+vfd worldState fieldPolygons
+vfd worldState representation:RobotPose
+# ...
+
+# views relative to robot
+vfd worldState cognition:RobotPose
+vfd worldState representation:BallModel:endPosition
+# ...
+
+# back to global coordinates
+vfd worldState cognition:Reset
+
+vfd worldState module:VoronoiProvider:BowyerWatson
+vfd worldState representation:Voronoi:graph
+
+
+# dr debugDrawing3d:representation:RobotPose
+# 
+# dr debugDrawing3d:module:LibDefenderProvider:defenderPosition
+# dr debugDrawing3d:module:LibSupporterProvider:supporterPosition
+# dr debugDrawing3d:module:LibJollyProvider:jollyPosition
+# dr debugDrawing3d:representation:RobotInfo
+# dr debugDrawing3d:module:LibSpecProvider:targetPosition
+

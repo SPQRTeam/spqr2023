@@ -1,0 +1,8 @@
+#! /bin/zsh
+
+cd ~/Code/robocup/spqrnao2023
+#cd ~/Code/robocup/specialballs    
+
+touch ./Make/CMake/Nao.cmake    # notice new symbols in new files
+NO_CLION=true ./Make/Linux/generate     # notice new files
+./Make/Linux/compile     # compile! 

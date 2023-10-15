@@ -1,0 +1,21 @@
+call Includes/Fast
+call Includes/5vs5
+
+# field views
+vf worldState
+vfd worldState fieldLines
+vfd worldState goalFrame
+vfd worldState fieldPolygons
+vfd worldState representation:RobotPose
+# ...
+
+# views relative to robot
+vfd worldState cognition:RobotPose
+vfd worldState representation:BallModel:endPosition
+# ...
+
+# back to global coordinates
+vfd worldState cognition:Reset
+
+vfd worldState module:VoronoiProvider:BowyerWatson
+vfd worldState representation:Voronoi:graph
