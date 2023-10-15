@@ -42,7 +42,7 @@ Open a terminal `Ctrl`+`Alt`+`t` (usually) and type the followings commands: <br
 ## Clone the repo
   * Create a folder called RoboCup in your home folder - `$ mkdir RoboCup`
   * Enter in the RoboCup folder - `$ cd RoboCup`
-  * Execute the command to clone - `$ git clone https://github.com/SPQRTeam/spqrnao2023.git`
+  * Execute the command to clone - `$ git clone https://github.com/SPQRTeam/spqr2023.git`
 
 
 ### Install OpenCV 3.4
@@ -103,7 +103,7 @@ It might be beneficial to create a bash script that does this automatically:
   ```
   #! /bin/bash
 
-  cd spqrnao2023    # Go to repo root. REPLACE WITH YOUR OWN PATH.
+  cd spqr2023    # Go to repo root. REPLACE WITH YOUR OWN PATH.
 
   touch Make/CMake/Nao.cmake    # notice new symbols in new files
   NO_CLION=true Make/Linux/generate     # notice new files
